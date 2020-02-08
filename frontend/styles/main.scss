@@ -261,7 +261,7 @@ header {
     }
 }
 
-// Left Content Detail Page
+// Content Detail Page
 .section-details-header {
     min-height: 310px;
     background-color: #E4E6EB;
@@ -301,6 +301,12 @@ header {
             font-size: 18px;
             color: #B1B1B1;
         }
+    }
+
+    .card-right {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 0;
     }
 
     .features {
@@ -343,6 +349,29 @@ header {
                 border: 4px solid #1ABC9C;
                 box-shadow: none;
             }
+        }
+    }
+
+    .member {
+        .member-image {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    // Right Content Detail Page
+    .join-container {
+        margin-top: -16px;
+    }
+
+    .btn-join-now {
+        background-color: #FF9E53;
+        color: #FFF;
+        border-radius: 0;
+
+        &:hover {
+            background-color: #FFB57C;
+            color: #FFF;
         }
     }
 }
