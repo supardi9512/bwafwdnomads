@@ -234,4 +234,74 @@ header .btn-get-started:hover {
   background-color: #FAFAFA;
   color: #C3C3C3;
 }
+
+.section-footer a {
+  color: #071C4D;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background-color: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
 /*# sourceMappingURL=main.css.map */

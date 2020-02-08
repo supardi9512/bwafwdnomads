@@ -253,3 +253,79 @@ header {
         }
     }
  }
+
+//  Footer
+.section-footer {
+    a {
+        color: #071C4D;
+    }
+}
+
+// Left Content Detail Page
+.section-details-header {
+    min-height: 310px;
+    background-color: #E4E6EB;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item {
+        &.active {
+            font-weight: bold;
+            color: #071C4D;
+        }
+    }
+
+    .card-details {
+        padding: 30px;
+        border-radius: 11px;
+
+        h1 {
+            font-size: 26px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #B1B1B1;
+        }
+    }
+
+    .features {
+        margin-top: 20px;
+
+        h3 {
+            font-size: 18px;
+            color: #071C4D;
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        .description {
+            margin-left: 10px;
+            overflow: hidden;
+            float: left;
+        }
+
+        .features-image {
+            width: 45px;
+            height: 45px;
+            float: left;
+        }
+    }
+}
