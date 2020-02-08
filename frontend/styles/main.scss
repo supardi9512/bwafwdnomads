@@ -328,4 +328,21 @@ header {
             float: left;
         }
     }
+
+    .gallery {
+        .xzoom-container {
+            display: block;
+
+            .xzoom {
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 10px;
+            }
+
+            .xactive {
+                border: 4px solid #1ABC9C;
+                box-shadow: none;
+            }
+        }
+    }
 }

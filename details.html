@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NOMADS</title>
     <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
     <link href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800|Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="frontend/styles/main.css">
@@ -81,7 +82,26 @@
                             <h1>Nusa Peninda</h1>
                             <p>Republic of Indonesia Raya</p>
                             <div class="gallery">
-
+                                <div class="xzoom-container">
+                                    <img src="frontend/images/details.jpg" class="xzoom" id="xzoom-default" xoriginal="frontend/images/details.jpg">
+                                </div>
+                                <div class="xzoom-thumbs">
+                                    <a href="frontend/images/details.jpg">
+                                        <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details.jpg">
+                                    </a>
+                                    <a href="frontend/images/details.jpg">
+                                        <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details.jpg">
+                                    </a>
+                                    <a href="frontend/images/details.jpg">
+                                        <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details.jpg">
+                                    </a>
+                                    <a href="frontend/images/details.jpg">
+                                        <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details.jpg">
+                                    </a>
+                                    <a href="frontend/images/details.jpg">
+                                        <img src="frontend/images/details.jpg" class="xzoom-gallery" width="128" xpreview="frontend/images/details.jpg">
+                                    </a>
+                                </div>
                             </div>
                             <h2>Tentang Wisata</h2>
                             <p>
@@ -207,6 +227,17 @@
     <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
     <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15,
+            });
+        });
+    </script>
 </body>
 
 </html>
