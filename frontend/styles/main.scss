@@ -301,6 +301,56 @@ header {
             font-size: 18px;
             color: #B1B1B1;
         }
+
+        .trip-information {
+            th {
+                font-weight: 300;
+                font-size: 18px;
+                color: #071C4D;
+            }
+
+            td {
+                font-weight: 300;
+                font-size: 18px;
+                color: #B1B1B1;
+            }
+        }
+
+        // Members Checkout Page
+
+        h3 {
+            font-weight: 600;
+            font-size: 14px;
+            color: #071C4D;
+        }
+
+        .disclaimer {
+            font-weight: 300;
+            font-size: 14px;
+            color: #B1B1B1;
+        }
+
+        .gj-datepicker {
+            .datepicker {
+                border-right: 0;
+            }
+
+            .input-group-append {
+                .btn {
+                    padding-right: 30px;
+                }
+            }
+        }
+
+        .btn-add-now {
+            background-color: #071C4D;
+            color: #FFF;
+
+            &:hover {
+                background-color: #1B3886;
+                color: #FFF;
+            }
+        }
     }
 
     .card-right {
