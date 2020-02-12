@@ -57,7 +57,7 @@ NOMADS
                             <div class="travel-country">INDONESIA</div>
                             <div class="travel-location">DERATAN, BALI</div>
                             <div class="travel-button mt-auto">
-                                <a href="details.html" class="btn btn-travel-details px-4">
+                                <a href="{{ route('detail') }}" class="btn btn-travel-details px-4">
                                     View Details
                                 </a>
                             </div>
@@ -68,7 +68,7 @@ NOMADS
                             <div class="travel-country">INDONESIA</div>
                             <div class="travel-location">BROMO, MALANG</div>
                             <div class="travel-button mt-auto">
-                                <a href="details.html" class="btn btn-travel-details px-4">
+                                <a href="{{ route('detail') }}" class="btn btn-travel-details px-4">
                                     View Details
                                 </a>
                             </div>
@@ -79,7 +79,7 @@ NOMADS
                             <div class="travel-country">INDONESIA</div>
                             <div class="travel-location">NUSA PENIDA</div>
                             <div class="travel-button mt-auto">
-                                <a href="details.html" class="btn btn-travel-details px-4">
+                                <a href="{{ route('detail') }}" class="btn btn-travel-details px-4">
                                     View Details
                                 </a>
                             </div>
@@ -90,7 +90,7 @@ NOMADS
                             <div class="travel-country">MIDDLE EAST</div>
                             <div class="travel-location">DUBAI</div>
                             <div class="travel-button mt-auto">
-                                <a href="details.html" class="btn btn-travel-details px-4">
+                                <a href="{{ route('detail') }}" class="btn btn-travel-details px-4">
                                     View Details
                                 </a>
                             </div>
