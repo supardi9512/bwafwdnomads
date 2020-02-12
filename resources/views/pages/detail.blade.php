@@ -133,7 +133,7 @@
 @endsection
 
 @push('prepend-style')
-    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link rel="stylesheet" href="{{ url('frontend/libraries/xzoom/xzoom.css') }}">
 @endpush
 
 @push('addon-script')
