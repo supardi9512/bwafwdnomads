@@ -25,7 +25,10 @@ Route::get('/checkout/success', 'CheckoutController@success')
 
 Route::prefix('admin')
     ->namespace('Admin')
+    ->middleware(['auth', 'admin'])
     ->group(function() {
         Route::get('/', 'DashboardController@index')
             ->name('dashboard');
     });
+
+Auth::routes();
