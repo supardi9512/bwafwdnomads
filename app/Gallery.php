@@ -18,6 +18,7 @@ class Gallery extends Model
 
     ];
 
+    // relasi tabel
     public function travel_package() {
         return $this->belongsTo(TravelPackage::class, 'travel_packages_id', 'id');
     }
