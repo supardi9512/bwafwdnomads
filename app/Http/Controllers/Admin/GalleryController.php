@@ -75,9 +75,11 @@ class GalleryController extends Controller
     public function edit($id)
     {
         $item = Gallery::findOrFail($id); // jika ada data maka tampilkan, tetapi jika tidak ada maka tampilkan error not found (404)
+        $travel_packages = TravelPackage::all();
 
         return view('pages.admin.gallery.edit', [
-            'item' => $item
+            'item' => $item,
+            'travel_packages' => $travel_packages
         ]);
     }
 
@@ -91,7 +93,9 @@ class GalleryController extends Controller
     public function update(GalleryRequest $request, $id)
     {
         $data = $request->all();
-        $data['slug'] = Str::slug($request->title);
+        $data['image'] = $request->file('image')->store(
+            'assets/gallery', 'public'
+        );
 
         $item = Gallery::findOrFail($id);
 
